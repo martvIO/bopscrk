@@ -8,7 +8,6 @@ import configparser
 #CFG_FILE_example = './bopscrk.cfg'  # path relative to bopscrk.py
 
 class Config:
-    
     def __init__(self, cfg_file):
         self.CFG_FILE = cfg_file
         self.cfg = configparser.ConfigParser(strict=False)
